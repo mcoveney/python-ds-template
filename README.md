@@ -6,17 +6,18 @@ Short description of the project.
 - What's the goal of the project?
 
 ## Project Structure
-├── README.md          # Project overview and instructions
-├── .gitignore         # Files and folders to ignore
-├── requirements.txt   # Python package dependencies
-├── data/
-│   ├── raw/           # Original, immutable data dumps
-│   └── processed/     # Cleaned and transformed datasets
-├── notebooks/         # Jupyter notebooks for exploration and prototyping
-├── src/               # Source code (functions, classes, scripts)
-├── outputs/
-│   ├── figures/       # Visualizations
-│   └── reports/       # Model evaluations, reports
+   ```
+   ├── README.md          # Project overview and instructions
+   ├── .gitignore         # Files and folders to ignore
+   ├── requirements.txt   # Python package dependencies
+   ├── data/
+   │   ├── raw/           # Original, immutable data dumps
+   │   └── processed/     # Cleaned and transformed datasets
+   ├── notebooks/         # Jupyter notebooks for exploration and prototyping
+   ├── src/               # Source code (functions, classes, scripts)
+   ├── outputs/
+   │   ├── figures/       # Visualizations
+   │   └── reports/       # Model evaluations, reports
 
 ## Setup Instructions
 
@@ -26,9 +27,11 @@ Short description of the project.
    cd python-ds-template
 
 2. **Create a virtual environment:**
-python -m venv venv
-source venv/bin/activate
+   ```bash
+   python -m venv venv
+   source venv/bin/activate
 
 3. **Install Dependencies:**
-pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
