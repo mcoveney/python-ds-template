@@ -18,6 +18,7 @@ Short description of the project.
    ├── outputs/
    │   ├── figures/       # Visualizations
    │   └── reports/       # Model evaluations, reports
+   ```
 
 ## Setup Instructions
 
