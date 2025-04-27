@@ -24,8 +24,8 @@ Short description of the project.
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/mcoveney/python-ds-template.git
-   cd python-ds-template
+   git clone https://github.com/username/original-repo-name.git new-project-name
+   cd new-project-name
 
 2. **Create a virtual environment:**
    ```bash
