@@ -1,0 +1,32 @@
+# Core data science libraries
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+scipy
+statsmodels
+
+# Jupyter notebook environment
+jupyterlab
+ipykernel
+
+# Data manipulation / fast querying (optional but great)
+#polars
+#duckdb
+
+# Machine learning extras
+xgboost
+lightgbm
+
+# Utility libraries
+tqdm          # Progress bars
+pyyaml        # Read/write YAML configs
+
+# (Optional) Parallelism / bigger workflows
+#dask
+#ray
+
+# (Optional) For exporting reports
+#nbformat
+#nbconvert
