@@ -27,8 +27,12 @@ Short description of the project.
    git clone https://github.com/mcoveney/python-ds-template.git new-project-name
    cd new-project-name
 
-2. ** Create new github repo:**
+2. ** Remove Git history. Create new github repo:**
    ```bash
+   rm -rf .git
+   git init
+   git add .
+   git commit -m "Initial commit: based on template"
    gh repo create new-project-name --public --source=. --remote=origin --push
 
 3. **Create a virtual environment:**
